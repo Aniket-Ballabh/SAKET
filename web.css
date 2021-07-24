@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+.top {
+    display: inline-block;
+    position: sticky;
+    top: 0em;
+    right: 1em;
+    left: 45em;
+}
+
+.navbar {
+    padding: 1em;
+    text-align: center;
+    box-shadow: 6px 6px 15px rgba(212, 185, 153, 0.603);
+}
+
+.navbar-nav {
+    padding: 0.2em;
+    border: dashed burlywood;
+}
+
+.nav_item_link {
+    padding: 1.5em 2em;
+    background-color: bisque;
+    display: inline-block;
+    border: 3px double black;
+    color: rgb(25, 47, 61);
+    transition: transform .6s;
+}
+
+.active,
+.nav_item_link:hover {
+    background-color: rgb(209, 170, 170);
+    color: white;
+}
+
+.nav_item_link:hover {
+    background-color: rgb(64, 65, 48);
+    color: khaki;
+    transform: scale(1.2);
+}
+
+#h {
+    color: rgb(250, 168, 45);
+    text-shadow: 2px 4px 8px rgba(71, 64, 25, 0.99);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    padding-left: 0em;
+    transition-duration: 5s;
+}
+
+.con1 {
+    float: left;
+    /* position: sticky;
+        position: -webkit-sticky;
+        top: 0em; */
+    /* scroll-snap-type: proximity; */
+}
+
+.banner {
+    font-family: 'New Tegomin', serif;
+    text-transform: uppercase;
+}
+
+#po {
+    color: navajowhite;
+    font-size: 25px;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition-duration: 3s;
+    margin-left: 0em;
+}
+
+.content {
+    display: inline-block;
+    margin-top: 2.5em;
+    font-family: "ms comic sans", cursive;
+    text-align: center;
+    width: 50em;
+}
+
+#entry-title {
+    margin-right: 9em;
+    margin-top: 20px;
+    padding: auto;
+    font-size: 30px;
+    color: rosybrown;
+    text-align: center;
+}
+
+#pi {
+    margin-right: 13em;
+    padding: auto;
+    font-size: 20px;
+    color: sandybrown;
+    text-align: center;
+}
+
+.container {
+    box-shadow: 2em 2em 5em rgba(153, 205, 50, 0.74);
+    margin-left: 3.5em;
+    width: 1200px;
+    margin-top: 3em;
+    padding: 5px;
+}
+
+.form {
+    /* background-image: url("1567665.png"); */
+    padding: 3.5em;
+    display: inline-block;
+    font-size: large;
+    text-align: left;
+    color: skyblue;
+}
+
+.form:hover {
+    color: brown;
+}
+
+#name {
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name:hover {
+    color: navy;
+    cursor: pointer;
+}
+
+#contact {
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact:hover {
+    color: rgb(114, 124, 23);
+    cursor: pointer;
+}
+
+#email {
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#email:hover {
+    color: rgb(4, 122, 20);
+    cursor: pointer;
+}
+
+#address {
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#address:hover {
+    color: rgb(129, 129, 131);
+    cursor: pointer;
+}
+
+#anchor {
+    display: inline-block;
+    border: 2px dashed sandybrown;
+    background-color: seashell;
+    margin-left: 3.5em;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+    .nav_item_link {
+        text-align: center;
+        display: block;
+        float: none;
+    }
+}

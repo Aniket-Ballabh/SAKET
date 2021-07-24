@@ -1,0 +1,75 @@
+    .i1 {
+        display: flex;
+        justify-content: space-around;
+        background-image: url("24.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 2em;
+        font-family: 'monospace', cursive;
+        font-size: 30px;
+        text-align: left;
+        font-weight: bolder;
+        color: rgb(77, 74, 50);
+        /* text-shadow: 2em 2em 3em rgb(129, 123, 37); */
+    }
+    
+    #h {
+        font-size: 40px !important;
+    }
+    
+    .images {
+        display: inline-flex;
+        border-top: dashed rgb(241, 217, 163);
+        border-bottom: dashed rgb(241, 217, 163);
+        box-sizing: border-box;
+        padding: 15px 25px 15px 25px;
+        flex-direction: row;
+    }
+    
+    .fst {
+        padding: 25px;
+        transition: transform .6s;
+    }
+    
+    .fst:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+    
+    .scnd {
+        padding: 25px;
+        transition: transform .6s;
+    }
+    
+    .scnd:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+    
+    .thrd {
+        padding: 25px;
+        transition: transform .6s;
+    }
+    
+    .thrd:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+    
+    #btn {
+        margin-top: 41em;
+        height: 3em;
+        width: 6em;
+        border: 2px dotted darkcyan;
+        border-radius: 5px;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        color: rgb(201, 201, 201);
+        padding: 5px;
+        transition: transform .3s;
+    }
+    
+    #btn:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }

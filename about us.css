@@ -1,0 +1,14 @@
+.i1 {
+    margin: 50px;
+    background-image: url("img-4.png") !important;
+    width: 390px;
+    height: 410px;
+    color: rgb(109, 38, 38);
+    font-family: 'MS COMIC SANS' !important;
+    text-align: center;
+    
+}
+
+#btn {
+    margin-top: 66em !important;
+}
